@@ -9,7 +9,6 @@
 #include "src/Texture.h"
 #include "src/vendor/im_gui/imgui.h"
 #include "src/vendor/im_gui/imgui_impl_glfw_gl3.h"
-#include "src/tests/TestClearColor.h"
 
 int main() {
 
@@ -42,14 +41,10 @@ int main() {
         ImGui::CreateContext();
         ImGui_ImplGlfwGL3_Init(window, true);
         ImGui::StyleColorsDark();
-        test::TestClearColor test;
 
         while (!glfwWindowShouldClose(window)) {
             renderer.Clear();
-            test.OnUpdate(0.0f);
-            test.OnRender();
             ImGui_ImplGlfwGL3_NewFrame();
-            test.OnImGuiRender();
 
 
             ImGui::Render();

@@ -14,7 +14,6 @@ file(REMOVE_RECURSE
   "CMakeFiles/OpenGLTut.dir/src/Texture.cpp.o"
   "CMakeFiles/OpenGLTut.dir/shader_provider/ShaderProvider.cpp.o"
   "CMakeFiles/OpenGLTut.dir/shader_provider/ShaderSource.cpp.o"
-  "CMakeFiles/OpenGLTut.dir/src/tests/TestClearColor.cpp.o"
   "OpenGLTut.pdb"
   "OpenGLTut"
 )

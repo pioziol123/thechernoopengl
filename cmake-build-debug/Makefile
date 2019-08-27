@@ -393,33 +393,6 @@ src/VertexBufferLayout.cpp.s:
 	$(MAKE) -f CMakeFiles/OpenGLTut.dir/build.make CMakeFiles/OpenGLTut.dir/src/VertexBufferLayout.cpp.s
 .PHONY : src/VertexBufferLayout.cpp.s
 
-src/tests/TestClearColor.o: src/tests/TestClearColor.cpp.o
-
-.PHONY : src/tests/TestClearColor.o
-
-# target to build an object file
-src/tests/TestClearColor.cpp.o:
-	$(MAKE) -f CMakeFiles/OpenGLTut.dir/build.make CMakeFiles/OpenGLTut.dir/src/tests/TestClearColor.cpp.o
-.PHONY : src/tests/TestClearColor.cpp.o
-
-src/tests/TestClearColor.i: src/tests/TestClearColor.cpp.i
-
-.PHONY : src/tests/TestClearColor.i
-
-# target to preprocess a source file
-src/tests/TestClearColor.cpp.i:
-	$(MAKE) -f CMakeFiles/OpenGLTut.dir/build.make CMakeFiles/OpenGLTut.dir/src/tests/TestClearColor.cpp.i
-.PHONY : src/tests/TestClearColor.cpp.i
-
-src/tests/TestClearColor.s: src/tests/TestClearColor.cpp.s
-
-.PHONY : src/tests/TestClearColor.s
-
-# target to generate assembly for a file
-src/tests/TestClearColor.cpp.s:
-	$(MAKE) -f CMakeFiles/OpenGLTut.dir/build.make CMakeFiles/OpenGLTut.dir/src/tests/TestClearColor.cpp.s
-.PHONY : src/tests/TestClearColor.cpp.s
-
 src/vendor/im_gui/imgui.o: src/vendor/im_gui/imgui.cpp.o
 
 .PHONY : src/vendor/im_gui/imgui.o
@@ -594,9 +567,6 @@ help:
 	@echo "... src/VertexBufferLayout.o"
 	@echo "... src/VertexBufferLayout.i"
 	@echo "... src/VertexBufferLayout.s"
-	@echo "... src/tests/TestClearColor.o"
-	@echo "... src/tests/TestClearColor.i"
-	@echo "... src/tests/TestClearColor.s"
 	@echo "... src/vendor/im_gui/imgui.o"
 	@echo "... src/vendor/im_gui/imgui.i"
 	@echo "... src/vendor/im_gui/imgui.s"

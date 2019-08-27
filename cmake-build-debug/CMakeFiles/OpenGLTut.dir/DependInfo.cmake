@@ -14,7 +14,6 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "/home/pioziol/CLionProjects/OpenGLTut/src/VertexArray.cpp" "/home/pioziol/CLionProjects/OpenGLTut/cmake-build-debug/CMakeFiles/OpenGLTut.dir/src/VertexArray.cpp.o"
   "/home/pioziol/CLionProjects/OpenGLTut/src/VertexBuffer.cpp" "/home/pioziol/CLionProjects/OpenGLTut/cmake-build-debug/CMakeFiles/OpenGLTut.dir/src/VertexBuffer.cpp.o"
   "/home/pioziol/CLionProjects/OpenGLTut/src/VertexBufferLayout.cpp" "/home/pioziol/CLionProjects/OpenGLTut/cmake-build-debug/CMakeFiles/OpenGLTut.dir/src/VertexBufferLayout.cpp.o"
-  "/home/pioziol/CLionProjects/OpenGLTut/src/tests/TestClearColor.cpp" "/home/pioziol/CLionProjects/OpenGLTut/cmake-build-debug/CMakeFiles/OpenGLTut.dir/src/tests/TestClearColor.cpp.o"
   "/home/pioziol/CLionProjects/OpenGLTut/src/vendor/im_gui/imgui.cpp" "/home/pioziol/CLionProjects/OpenGLTut/cmake-build-debug/CMakeFiles/OpenGLTut.dir/src/vendor/im_gui/imgui.cpp.o"
   "/home/pioziol/CLionProjects/OpenGLTut/src/vendor/im_gui/imgui_demo.cpp" "/home/pioziol/CLionProjects/OpenGLTut/cmake-build-debug/CMakeFiles/OpenGLTut.dir/src/vendor/im_gui/imgui_demo.cpp.o"
   "/home/pioziol/CLionProjects/OpenGLTut/src/vendor/im_gui/imgui_draw.cpp" "/home/pioziol/CLionProjects/OpenGLTut/cmake-build-debug/CMakeFiles/OpenGLTut.dir/src/vendor/im_gui/imgui_draw.cpp.o"

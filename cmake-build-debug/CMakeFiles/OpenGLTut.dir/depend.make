@@ -11,8 +11,6 @@ CMakeFiles/OpenGLTut.dir/main.cpp.o: ../src/Texture.h
 CMakeFiles/OpenGLTut.dir/main.cpp.o: ../src/VertexArray.h
 CMakeFiles/OpenGLTut.dir/main.cpp.o: ../src/VertexBuffer.h
 CMakeFiles/OpenGLTut.dir/main.cpp.o: ../src/VertexBufferLayout.h
-CMakeFiles/OpenGLTut.dir/main.cpp.o: ../src/tests/TestClearColor.h
-CMakeFiles/OpenGLTut.dir/main.cpp.o: ../src/tests/test.h
 CMakeFiles/OpenGLTut.dir/main.cpp.o: ../src/vendor/im_gui/imconfig.h
 CMakeFiles/OpenGLTut.dir/main.cpp.o: ../src/vendor/im_gui/imgui.h
 CMakeFiles/OpenGLTut.dir/main.cpp.o: ../src/vendor/im_gui/imgui_impl_glfw_gl3.h
@@ -88,19 +86,6 @@ CMakeFiles/OpenGLTut.dir/src/VertexBuffer.cpp.o: ../src/VertexBufferLayout.h
 
 CMakeFiles/OpenGLTut.dir/src/VertexBufferLayout.cpp.o: ../src/VertexBufferLayout.cpp
 CMakeFiles/OpenGLTut.dir/src/VertexBufferLayout.cpp.o: ../src/VertexBufferLayout.h
-
-CMakeFiles/OpenGLTut.dir/src/tests/TestClearColor.cpp.o: ../shader_provider/ShaderSource.h
-CMakeFiles/OpenGLTut.dir/src/tests/TestClearColor.cpp.o: ../src/IndexBuffer.h
-CMakeFiles/OpenGLTut.dir/src/tests/TestClearColor.cpp.o: ../src/Renderer.h
-CMakeFiles/OpenGLTut.dir/src/tests/TestClearColor.cpp.o: ../src/Shader.h
-CMakeFiles/OpenGLTut.dir/src/tests/TestClearColor.cpp.o: ../src/VertexArray.h
-CMakeFiles/OpenGLTut.dir/src/tests/TestClearColor.cpp.o: ../src/VertexBuffer.h
-CMakeFiles/OpenGLTut.dir/src/tests/TestClearColor.cpp.o: ../src/VertexBufferLayout.h
-CMakeFiles/OpenGLTut.dir/src/tests/TestClearColor.cpp.o: ../src/tests/TestClearColor.cpp
-CMakeFiles/OpenGLTut.dir/src/tests/TestClearColor.cpp.o: ../src/tests/TestClearColor.h
-CMakeFiles/OpenGLTut.dir/src/tests/TestClearColor.cpp.o: ../src/tests/test.h
-CMakeFiles/OpenGLTut.dir/src/tests/TestClearColor.cpp.o: ../src/vendor/im_gui/imconfig.h
-CMakeFiles/OpenGLTut.dir/src/tests/TestClearColor.cpp.o: ../src/vendor/im_gui/imgui.h
 
 CMakeFiles/OpenGLTut.dir/src/vendor/im_gui/imgui.cpp.o: ../src/vendor/im_gui/imconfig.h
 CMakeFiles/OpenGLTut.dir/src/vendor/im_gui/imgui.cpp.o: ../src/vendor/im_gui/imgui.cpp

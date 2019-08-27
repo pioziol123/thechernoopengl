@@ -29,8 +29,6 @@ src/vendor/im_gui/imgui.h
 /home/pioziol/CLionProjects/OpenGLTut/src/vendor/im_gui/imgui.h
 src/vendor/im_gui/imgui_impl_glfw_gl3.h
 /home/pioziol/CLionProjects/OpenGLTut/src/vendor/im_gui/imgui_impl_glfw_gl3.h
-src/tests/TestClearColor.h
-/home/pioziol/CLionProjects/OpenGLTut/src/tests/TestClearColor.h
 
 /home/pioziol/CLionProjects/OpenGLTut/shader_provider/ShaderProvider.h
 string
@@ -107,12 +105,6 @@ vector
 -
 GL/glew.h
 -
-
-/home/pioziol/CLionProjects/OpenGLTut/src/tests/TestClearColor.h
-test.h
-/home/pioziol/CLionProjects/OpenGLTut/src/tests/test.h
-
-/home/pioziol/CLionProjects/OpenGLTut/src/tests/test.h
 
 /home/pioziol/CLionProjects/OpenGLTut/src/vendor/im_gui/imconfig.h
 
