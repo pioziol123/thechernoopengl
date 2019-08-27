@@ -12,6 +12,8 @@ CMakeFiles/OpenGLTut.dir/main.cpp.o
  /home/pioziol/CLionProjects/OpenGLTut/src/VertexArray.h
  /home/pioziol/CLionProjects/OpenGLTut/src/VertexBuffer.h
  /home/pioziol/CLionProjects/OpenGLTut/src/VertexBufferLayout.h
+ /home/pioziol/CLionProjects/OpenGLTut/src/tests/TestClearColor.h
+ /home/pioziol/CLionProjects/OpenGLTut/src/tests/test.h
  /home/pioziol/CLionProjects/OpenGLTut/src/vendor/im_gui/imconfig.h
  /home/pioziol/CLionProjects/OpenGLTut/src/vendor/im_gui/imgui.h
  /home/pioziol/CLionProjects/OpenGLTut/src/vendor/im_gui/imgui_impl_glfw_gl3.h
@@ -87,6 +89,19 @@ CMakeFiles/OpenGLTut.dir/src/VertexBuffer.cpp.o
 CMakeFiles/OpenGLTut.dir/src/VertexBufferLayout.cpp.o
  /home/pioziol/CLionProjects/OpenGLTut/src/VertexBufferLayout.cpp
  /home/pioziol/CLionProjects/OpenGLTut/src/VertexBufferLayout.h
+CMakeFiles/OpenGLTut.dir/src/tests/TestClearColor.cpp.o
+ /home/pioziol/CLionProjects/OpenGLTut/shader_provider/ShaderSource.h
+ /home/pioziol/CLionProjects/OpenGLTut/src/IndexBuffer.h
+ /home/pioziol/CLionProjects/OpenGLTut/src/Renderer.h
+ /home/pioziol/CLionProjects/OpenGLTut/src/Shader.h
+ /home/pioziol/CLionProjects/OpenGLTut/src/VertexArray.h
+ /home/pioziol/CLionProjects/OpenGLTut/src/VertexBuffer.h
+ /home/pioziol/CLionProjects/OpenGLTut/src/VertexBufferLayout.h
+ /home/pioziol/CLionProjects/OpenGLTut/src/tests/TestClearColor.cpp
+ /home/pioziol/CLionProjects/OpenGLTut/src/tests/TestClearColor.h
+ /home/pioziol/CLionProjects/OpenGLTut/src/tests/test.h
+ /home/pioziol/CLionProjects/OpenGLTut/src/vendor/im_gui/imconfig.h
+ /home/pioziol/CLionProjects/OpenGLTut/src/vendor/im_gui/imgui.h
 CMakeFiles/OpenGLTut.dir/src/vendor/im_gui/imgui.cpp.o
  /home/pioziol/CLionProjects/OpenGLTut/src/vendor/im_gui/imconfig.h
  /home/pioziol/CLionProjects/OpenGLTut/src/vendor/im_gui/imgui.cpp

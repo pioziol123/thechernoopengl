@@ -5,12 +5,13 @@
 #ifndef OPENGLTUT_TESTCLEARCOLOR_H
 #define OPENGLTUT_TESTCLEARCOLOR_H
 
+#include "test.h"
 namespace test {
 
     class TestClearColor : public Test {
     public:
         TestClearColor();
-        ~TestClearColor();
+        ~TestClearColor() override;
 
         void OnUpdate(float deltaTime) override;
         void OnRender() override;

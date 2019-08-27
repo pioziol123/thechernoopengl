@@ -38,7 +38,13 @@ set (VENDORS
         src/vendor/im_gui/imgui_draw.cpp
         src/vendor/im_gui/imgui_demo.cpp
 )
-set(SOURCE_FILES main.cpp ${VENDORS}  ${SRC_FILES} ${SHADER_PROVIDER_SOURCES})
+
+set (TESTS
+        src/tests/test.h
+        src/tests/TestClearColor.cpp
+        src/tests/TestClearColor.h
+        )
+set(SOURCE_FILES main.cpp ${VENDORS}  ${SRC_FILES} ${SHADER_PROVIDER_SOURCES} ${TESTS})
 add_executable(OpenGLTut ${SOURCE_FILES})
 
 find_package(glfw3 3.3 REQUIRED)

@@ -143,6 +143,15 @@
 		<Unit filename="/home/pioziol/CLionProjects/OpenGLTut/src/VertexBufferLayout.h">
 			<Option target="OpenGLTut"/>
 		</Unit>
+		<Unit filename="/home/pioziol/CLionProjects/OpenGLTut/src/tests/TestClearColor.cpp">
+			<Option target="OpenGLTut"/>
+		</Unit>
+		<Unit filename="/home/pioziol/CLionProjects/OpenGLTut/src/tests/TestClearColor.h">
+			<Option target="OpenGLTut"/>
+		</Unit>
+		<Unit filename="/home/pioziol/CLionProjects/OpenGLTut/src/tests/test.h">
+			<Option target="OpenGLTut"/>
+		</Unit>
 		<Unit filename="/home/pioziol/CLionProjects/OpenGLTut/src/vendor/im_gui/imconfig.h">
 			<Option target="OpenGLTut"/>
 		</Unit>
