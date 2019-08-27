@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="OpenGLTut"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\..\;CMake Files\..\..\..\..\usr\;CMake Files\..\..\..\..\usr\local\;CMake Files\..\..\..\..\usr\local\lib\;CMake Files\..\..\..\..\usr\local\lib\cmake\;CMake Files\..\..\..\..\usr\local\lib\cmake\glfw3\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/pioziol/CLionProjects/OpenGLTut/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/pioziol/CLionProjects/OpenGLTut/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/pioziol/CLionProjects/OpenGLTut/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/pioziol/CLionProjects/OpenGLTut/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/pioziol/CLionProjects/OpenGLTut/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/pioziol/CLionProjects/OpenGLTut/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/pioziol/CLionProjects/OpenGLTut/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/pioziol/CLionProjects/OpenGLTut/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/pioziol/CLionProjects/OpenGLTut/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/pioziol/CLionProjects/OpenGLTut/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="OpenGLTut">
+				<Option output="/home/pioziol/CLionProjects/OpenGLTut/cmake-build-debug/OpenGLTut" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/pioziol/CLionProjects/OpenGLTut/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/pioziol/CLionProjects/OpenGLTut/src/vendor/glm/glm"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/pioziol/CLionProjects/OpenGLTut/cmake-build-debug/Makefile&quot;  VERBOSE=1 OpenGLTut"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/pioziol/CLionProjects/OpenGLTut/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/pioziol/CLionProjects/OpenGLTut/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/pioziol/CLionProjects/OpenGLTut/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="OpenGLTut/fast">
+				<Option output="/home/pioziol/CLionProjects/OpenGLTut/cmake-build-debug/OpenGLTut" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/pioziol/CLionProjects/OpenGLTut/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/pioziol/CLionProjects/OpenGLTut/src/vendor/glm/glm"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/pioziol/CLionProjects/OpenGLTut/cmake-build-debug/Makefile&quot;  VERBOSE=1 OpenGLTut/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/pioziol/CLionProjects/OpenGLTut/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/pioziol/CLionProjects/OpenGLTut/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/pioziol/CLionProjects/OpenGLTut/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/pioziol/CLionProjects/OpenGLTut/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/pioziol/CLionProjects/OpenGLTut/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/pioziol/CLionProjects/OpenGLTut/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/pioziol/CLionProjects/OpenGLTut/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/pioziol/CLionProjects/OpenGLTut/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/pioziol/CLionProjects/OpenGLTut/main.cpp">
+			<Option target="OpenGLTut"/>
+		</Unit>
+		<Unit filename="/home/pioziol/CLionProjects/OpenGLTut/shader_provider/ShaderProvider.cpp">
+			<Option target="OpenGLTut"/>
+		</Unit>
+		<Unit filename="/home/pioziol/CLionProjects/OpenGLTut/shader_provider/ShaderProvider.h">
+			<Option target="OpenGLTut"/>
+		</Unit>
+		<Unit filename="/home/pioziol/CLionProjects/OpenGLTut/shader_provider/ShaderSource.cpp">
+			<Option target="OpenGLTut"/>
+		</Unit>
+		<Unit filename="/home/pioziol/CLionProjects/OpenGLTut/shader_provider/ShaderSource.h">
+			<Option target="OpenGLTut"/>
+		</Unit>
+		<Unit filename="/home/pioziol/CLionProjects/OpenGLTut/src/IndexBuffer.cpp">
+			<Option target="OpenGLTut"/>
+		</Unit>
+		<Unit filename="/home/pioziol/CLionProjects/OpenGLTut/src/IndexBuffer.h">
+			<Option target="OpenGLTut"/>
+		</Unit>
+		<Unit filename="/home/pioziol/CLionProjects/OpenGLTut/src/Renderer.cpp">
+			<Option target="OpenGLTut"/>
+		</Unit>
+		<Unit filename="/home/pioziol/CLionProjects/OpenGLTut/src/Renderer.h">
+			<Option target="OpenGLTut"/>
+		</Unit>
+		<Unit filename="/home/pioziol/CLionProjects/OpenGLTut/src/Shader.cpp">
+			<Option target="OpenGLTut"/>
+		</Unit>
+		<Unit filename="/home/pioziol/CLionProjects/OpenGLTut/src/Shader.h">
+			<Option target="OpenGLTut"/>
+		</Unit>
+		<Unit filename="/home/pioziol/CLionProjects/OpenGLTut/src/Texture.cpp">
+			<Option target="OpenGLTut"/>
+		</Unit>
+		<Unit filename="/home/pioziol/CLionProjects/OpenGLTut/src/Texture.h">
+			<Option target="OpenGLTut"/>
+		</Unit>
+		<Unit filename="/home/pioziol/CLionProjects/OpenGLTut/src/VertexArray.cpp">
+			<Option target="OpenGLTut"/>
+		</Unit>
+		<Unit filename="/home/pioziol/CLionProjects/OpenGLTut/src/VertexArray.h">
+			<Option target="OpenGLTut"/>
+		</Unit>
+		<Unit filename="/home/pioziol/CLionProjects/OpenGLTut/src/VertexBuffer.cpp">
+			<Option target="OpenGLTut"/>
+		</Unit>
+		<Unit filename="/home/pioziol/CLionProjects/OpenGLTut/src/VertexBuffer.h">
+			<Option target="OpenGLTut"/>
+		</Unit>
+		<Unit filename="/home/pioziol/CLionProjects/OpenGLTut/src/VertexBufferLayout.cpp">
+			<Option target="OpenGLTut"/>
+		</Unit>
+		<Unit filename="/home/pioziol/CLionProjects/OpenGLTut/src/VertexBufferLayout.h">
+			<Option target="OpenGLTut"/>
+		</Unit>
+		<Unit filename="/home/pioziol/CLionProjects/OpenGLTut/src/vendor/im_gui/imconfig.h">
+			<Option target="OpenGLTut"/>
+		</Unit>
+		<Unit filename="/home/pioziol/CLionProjects/OpenGLTut/src/vendor/im_gui/imgui.cpp">
+			<Option target="OpenGLTut"/>
+		</Unit>
+		<Unit filename="/home/pioziol/CLionProjects/OpenGLTut/src/vendor/im_gui/imgui.h">
+			<Option target="OpenGLTut"/>
+		</Unit>
+		<Unit filename="/home/pioziol/CLionProjects/OpenGLTut/src/vendor/im_gui/imgui_demo.cpp">
+			<Option target="OpenGLTut"/>
+		</Unit>
+		<Unit filename="/home/pioziol/CLionProjects/OpenGLTut/src/vendor/im_gui/imgui_draw.cpp">
+			<Option target="OpenGLTut"/>
+		</Unit>
+		<Unit filename="/home/pioziol/CLionProjects/OpenGLTut/src/vendor/im_gui/imgui_impl_glfw_gl3.cpp">
+			<Option target="OpenGLTut"/>
+		</Unit>
+		<Unit filename="/home/pioziol/CLionProjects/OpenGLTut/src/vendor/im_gui/imgui_impl_glfw_gl3.h">
+			<Option target="OpenGLTut"/>
+		</Unit>
+		<Unit filename="/home/pioziol/CLionProjects/OpenGLTut/src/vendor/im_gui/imgui_internal.h">
+			<Option target="OpenGLTut"/>
+		</Unit>
+		<Unit filename="/home/pioziol/CLionProjects/OpenGLTut/src/vendor/im_gui/stb_rect_pack.h">
+			<Option target="OpenGLTut"/>
+		</Unit>
+		<Unit filename="/home/pioziol/CLionProjects/OpenGLTut/src/vendor/im_gui/stb_truetype.h">
+			<Option target="OpenGLTut"/>
+		</Unit>
+		<Unit filename="/home/pioziol/CLionProjects/OpenGLTut/src/vendor/stb_image/stb_image.cpp">
+			<Option target="OpenGLTut"/>
+		</Unit>
+		<Unit filename="/home/pioziol/CLionProjects/OpenGLTut/src/vendor/stb_image/stb_image.h">
+			<Option target="OpenGLTut"/>
+		</Unit>
+		<Unit filename="/home/pioziol/CLionProjects/OpenGLTut/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/pioziol/CLionProjects/OpenGLTut/../../../../usr/local/lib/cmake/glfw3/glfw3Config.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\lib\cmake\glfw3\"/>
+		</Unit>
+		<Unit filename="/home/pioziol/CLionProjects/OpenGLTut/../../../../usr/local/lib/cmake/glfw3/glfw3ConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\lib\cmake\glfw3\"/>
+		</Unit>
+		<Unit filename="/home/pioziol/CLionProjects/OpenGLTut/../../../../usr/local/lib/cmake/glfw3/glfw3Targets-noconfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\lib\cmake\glfw3\"/>
+		</Unit>
+		<Unit filename="/home/pioziol/CLionProjects/OpenGLTut/../../../../usr/local/lib/cmake/glfw3/glfw3Targets.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\lib\cmake\glfw3\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
