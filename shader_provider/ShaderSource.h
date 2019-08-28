@@ -5,7 +5,6 @@
 #ifndef OPENGLTUT_SHADERSOURCE_H
 #define OPENGLTUT_SHADERSOURCE_H
 
-//#include "../src/Renderer.h"
 #include "iostream"
 #include "fstream"
 #include "string"

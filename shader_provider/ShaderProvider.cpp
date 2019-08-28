@@ -7,7 +7,9 @@
 
 ShaderProvider::ShaderProvider() {
     this->types[Shaders::BasicFragmentShader] = {GL_FRAGMENT_SHADER, "/home/pioziol/CLionProjects/OpenGLTut/src/shaders/FragmentShader.cpp"};
+    this->types[Shaders::FunnyFragmentShader] = {GL_FRAGMENT_SHADER, "/home/pioziol/CLionProjects/OpenGLTut/src/shaders/FunnyFragmentShader.cpp"};
     this->types[Shaders::BasicVertexShader] = {GL_VERTEX_SHADER, "/home/pioziol/CLionProjects/OpenGLTut/src/shaders/VertexShader.cpp"};
+    this->types[Shaders::FunnyVertexShader] = {GL_VERTEX_SHADER, "/home/pioziol/CLionProjects/OpenGLTut/src/shaders/FunnyVertexShader.cpp"};
 }
 
 ShaderSource* ShaderProvider::createShader(Shaders shaderType) {

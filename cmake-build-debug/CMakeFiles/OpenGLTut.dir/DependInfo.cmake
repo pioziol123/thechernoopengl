@@ -4,6 +4,8 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
+  "/home/pioziol/CLionProjects/OpenGLTut/funn_with_squares/Square.cpp" "/home/pioziol/CLionProjects/OpenGLTut/cmake-build-debug/CMakeFiles/OpenGLTut.dir/funn_with_squares/Square.cpp.o"
+  "/home/pioziol/CLionProjects/OpenGLTut/funn_with_squares/factory/SmallSquareFactory.cpp" "/home/pioziol/CLionProjects/OpenGLTut/cmake-build-debug/CMakeFiles/OpenGLTut.dir/funn_with_squares/factory/SmallSquareFactory.cpp.o"
   "/home/pioziol/CLionProjects/OpenGLTut/main.cpp" "/home/pioziol/CLionProjects/OpenGLTut/cmake-build-debug/CMakeFiles/OpenGLTut.dir/main.cpp.o"
   "/home/pioziol/CLionProjects/OpenGLTut/shader_provider/ShaderProvider.cpp" "/home/pioziol/CLionProjects/OpenGLTut/cmake-build-debug/CMakeFiles/OpenGLTut.dir/shader_provider/ShaderProvider.cpp.o"
   "/home/pioziol/CLionProjects/OpenGLTut/shader_provider/ShaderSource.cpp" "/home/pioziol/CLionProjects/OpenGLTut/cmake-build-debug/CMakeFiles/OpenGLTut.dir/shader_provider/ShaderSource.cpp.o"
@@ -25,6 +27,7 @@ set(CMAKE_CXX_COMPILER_ID "GNU")
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "../src/vendor/glm/glm"
+  "../src"
   )
 
 # Targets to which this target links.

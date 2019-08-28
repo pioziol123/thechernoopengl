@@ -35,6 +35,7 @@
 				<Option compiler="gcc"/>
 				<Compiler>
 					<Add directory="/home/pioziol/CLionProjects/OpenGLTut/src/vendor/glm/glm"/>
+					<Add directory="/home/pioziol/CLionProjects/OpenGLTut/src"/>
 					<Add directory="/usr/include/c++/7"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
 					<Add directory="/usr/include/c++/7/backward"/>
@@ -59,6 +60,7 @@
 				<Option compiler="gcc"/>
 				<Compiler>
 					<Add directory="/home/pioziol/CLionProjects/OpenGLTut/src/vendor/glm/glm"/>
+					<Add directory="/home/pioziol/CLionProjects/OpenGLTut/src"/>
 					<Add directory="/usr/include/c++/7"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
 					<Add directory="/usr/include/c++/7/backward"/>
@@ -86,6 +88,21 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/home/pioziol/CLionProjects/OpenGLTut/funn_with_squares/Square.cpp">
+			<Option target="OpenGLTut"/>
+		</Unit>
+		<Unit filename="/home/pioziol/CLionProjects/OpenGLTut/funn_with_squares/Square.h">
+			<Option target="OpenGLTut"/>
+		</Unit>
+		<Unit filename="/home/pioziol/CLionProjects/OpenGLTut/funn_with_squares/factory/SmallSquareFactory.cpp">
+			<Option target="OpenGLTut"/>
+		</Unit>
+		<Unit filename="/home/pioziol/CLionProjects/OpenGLTut/funn_with_squares/factory/SmallSquareFactory.h">
+			<Option target="OpenGLTut"/>
+		</Unit>
+		<Unit filename="/home/pioziol/CLionProjects/OpenGLTut/funn_with_squares/factory/SquareFactory.h">
+			<Option target="OpenGLTut"/>
+		</Unit>
 		<Unit filename="/home/pioziol/CLionProjects/OpenGLTut/main.cpp">
 			<Option target="OpenGLTut"/>
 		</Unit>

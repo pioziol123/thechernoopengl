@@ -6,5 +6,5 @@ CXX_FLAGS = -g   -std=gnu++1z
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/pioziol/CLionProjects/OpenGLTut/src/vendor/glm/glm 
+CXX_INCLUDES = -I/home/pioziol/CLionProjects/OpenGLTut/src/vendor/glm/glm -I/home/pioziol/CLionProjects/OpenGLTut/src 
 

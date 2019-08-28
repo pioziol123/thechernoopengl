@@ -123,6 +123,60 @@ OpenGLTut/fast:
 	$(MAKE) -f CMakeFiles/OpenGLTut.dir/build.make CMakeFiles/OpenGLTut.dir/build
 .PHONY : OpenGLTut/fast
 
+funn_with_squares/Square.o: funn_with_squares/Square.cpp.o
+
+.PHONY : funn_with_squares/Square.o
+
+# target to build an object file
+funn_with_squares/Square.cpp.o:
+	$(MAKE) -f CMakeFiles/OpenGLTut.dir/build.make CMakeFiles/OpenGLTut.dir/funn_with_squares/Square.cpp.o
+.PHONY : funn_with_squares/Square.cpp.o
+
+funn_with_squares/Square.i: funn_with_squares/Square.cpp.i
+
+.PHONY : funn_with_squares/Square.i
+
+# target to preprocess a source file
+funn_with_squares/Square.cpp.i:
+	$(MAKE) -f CMakeFiles/OpenGLTut.dir/build.make CMakeFiles/OpenGLTut.dir/funn_with_squares/Square.cpp.i
+.PHONY : funn_with_squares/Square.cpp.i
+
+funn_with_squares/Square.s: funn_with_squares/Square.cpp.s
+
+.PHONY : funn_with_squares/Square.s
+
+# target to generate assembly for a file
+funn_with_squares/Square.cpp.s:
+	$(MAKE) -f CMakeFiles/OpenGLTut.dir/build.make CMakeFiles/OpenGLTut.dir/funn_with_squares/Square.cpp.s
+.PHONY : funn_with_squares/Square.cpp.s
+
+funn_with_squares/factory/SmallSquareFactory.o: funn_with_squares/factory/SmallSquareFactory.cpp.o
+
+.PHONY : funn_with_squares/factory/SmallSquareFactory.o
+
+# target to build an object file
+funn_with_squares/factory/SmallSquareFactory.cpp.o:
+	$(MAKE) -f CMakeFiles/OpenGLTut.dir/build.make CMakeFiles/OpenGLTut.dir/funn_with_squares/factory/SmallSquareFactory.cpp.o
+.PHONY : funn_with_squares/factory/SmallSquareFactory.cpp.o
+
+funn_with_squares/factory/SmallSquareFactory.i: funn_with_squares/factory/SmallSquareFactory.cpp.i
+
+.PHONY : funn_with_squares/factory/SmallSquareFactory.i
+
+# target to preprocess a source file
+funn_with_squares/factory/SmallSquareFactory.cpp.i:
+	$(MAKE) -f CMakeFiles/OpenGLTut.dir/build.make CMakeFiles/OpenGLTut.dir/funn_with_squares/factory/SmallSquareFactory.cpp.i
+.PHONY : funn_with_squares/factory/SmallSquareFactory.cpp.i
+
+funn_with_squares/factory/SmallSquareFactory.s: funn_with_squares/factory/SmallSquareFactory.cpp.s
+
+.PHONY : funn_with_squares/factory/SmallSquareFactory.s
+
+# target to generate assembly for a file
+funn_with_squares/factory/SmallSquareFactory.cpp.s:
+	$(MAKE) -f CMakeFiles/OpenGLTut.dir/build.make CMakeFiles/OpenGLTut.dir/funn_with_squares/factory/SmallSquareFactory.cpp.s
+.PHONY : funn_with_squares/factory/SmallSquareFactory.cpp.s
+
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -537,6 +591,12 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... OpenGLTut"
 	@echo "... edit_cache"
+	@echo "... funn_with_squares/Square.o"
+	@echo "... funn_with_squares/Square.i"
+	@echo "... funn_with_squares/Square.s"
+	@echo "... funn_with_squares/factory/SmallSquareFactory.o"
+	@echo "... funn_with_squares/factory/SmallSquareFactory.i"
+	@echo "... funn_with_squares/factory/SmallSquareFactory.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

@@ -1,7 +1,7 @@
 cmake_minimum_required(VERSION 3.14)
 project(OpenGLTut)
 include_directories(src/vendor/glm/glm/)
-#include_directories(src/vendor/)
+include_directories(src)
 set(CMAKE_CXX_STANDARD 17)
 set(SHADER_PROVIDER_SOURCES
         shader_provider/ShaderProvider.cpp
@@ -39,7 +39,15 @@ set (VENDORS
         src/vendor/im_gui/imgui_demo.cpp
 )
 
-set(SOURCE_FILES main.cpp ${VENDORS}  ${SRC_FILES} ${SHADER_PROVIDER_SOURCES})
+set(FUN_WITH_SQUARES
+        funn_with_squares/Square.cpp
+        funn_with_squares/Square.h
+        funn_with_squares/factory/SquareFactory.h
+        funn_with_squares/factory/SmallSquareFactory.cpp
+        funn_with_squares/factory/SmallSquareFactory.h
+)
+
+set(SOURCE_FILES main.cpp ${VENDORS}  ${SRC_FILES} ${SHADER_PROVIDER_SOURCES} ${FUN_WITH_SQUARES})
 add_executable(OpenGLTut ${SOURCE_FILES})
 
 find_package(glfw3 3.3 REQUIRED)

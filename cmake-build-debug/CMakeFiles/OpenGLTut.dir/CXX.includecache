@@ -6,6 +6,20 @@
 
 #IncludeRegexTransform: 
 
+/home/pioziol/CLionProjects/OpenGLTut/funn_with_squares/Square.h
+Renderer.h
+/home/pioziol/CLionProjects/OpenGLTut/funn_with_squares/Renderer.h
+../src/VertexBuffer.h
+/home/pioziol/CLionProjects/OpenGLTut/src/VertexBuffer.h
+
+/home/pioziol/CLionProjects/OpenGLTut/funn_with_squares/factory/SmallSquareFactory.h
+SquareFactory.h
+/home/pioziol/CLionProjects/OpenGLTut/funn_with_squares/factory/SquareFactory.h
+
+/home/pioziol/CLionProjects/OpenGLTut/funn_with_squares/factory/SquareFactory.h
+../Square.h
+/home/pioziol/CLionProjects/OpenGLTut/funn_with_squares/Square.h
+
 /home/pioziol/CLionProjects/OpenGLTut/main.cpp
 iostream
 -
@@ -29,6 +43,10 @@ src/vendor/im_gui/imgui.h
 /home/pioziol/CLionProjects/OpenGLTut/src/vendor/im_gui/imgui.h
 src/vendor/im_gui/imgui_impl_glfw_gl3.h
 /home/pioziol/CLionProjects/OpenGLTut/src/vendor/im_gui/imgui_impl_glfw_gl3.h
+funn_with_squares/factory/SmallSquareFactory.h
+/home/pioziol/CLionProjects/OpenGLTut/funn_with_squares/factory/SmallSquareFactory.h
+funn_with_squares/factory/SquareFactory.h
+/home/pioziol/CLionProjects/OpenGLTut/funn_with_squares/factory/SquareFactory.h
 
 /home/pioziol/CLionProjects/OpenGLTut/shader_provider/ShaderProvider.h
 string

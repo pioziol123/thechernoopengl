@@ -9,7 +9,7 @@
 #include "ShaderSource.h"
 
 enum Shaders {
-    BasicVertexShader, BasicFragmentShader
+    BasicVertexShader, BasicFragmentShader, FunnyVertexShader, FunnyFragmentShader
 };
 
 
@@ -20,7 +20,7 @@ struct ShaderType {
 
 class ShaderProvider {
 private:
-    ShaderType types[2]{};
+    ShaderType types[4]{};
 public:
     ShaderProvider();
     ShaderSource* createShader(Shaders shaderType);

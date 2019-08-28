@@ -252,6 +252,32 @@ CMakeFiles/OpenGLTut.dir/shader_provider/ShaderSource.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/OpenGLTut.dir/shader_provider/ShaderSource.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pioziol/CLionProjects/OpenGLTut/shader_provider/ShaderSource.cpp -o CMakeFiles/OpenGLTut.dir/shader_provider/ShaderSource.cpp.s
 
+CMakeFiles/OpenGLTut.dir/funn_with_squares/Square.cpp.o: CMakeFiles/OpenGLTut.dir/flags.make
+CMakeFiles/OpenGLTut.dir/funn_with_squares/Square.cpp.o: ../funn_with_squares/Square.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pioziol/CLionProjects/OpenGLTut/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/OpenGLTut.dir/funn_with_squares/Square.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/OpenGLTut.dir/funn_with_squares/Square.cpp.o -c /home/pioziol/CLionProjects/OpenGLTut/funn_with_squares/Square.cpp
+
+CMakeFiles/OpenGLTut.dir/funn_with_squares/Square.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/OpenGLTut.dir/funn_with_squares/Square.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pioziol/CLionProjects/OpenGLTut/funn_with_squares/Square.cpp > CMakeFiles/OpenGLTut.dir/funn_with_squares/Square.cpp.i
+
+CMakeFiles/OpenGLTut.dir/funn_with_squares/Square.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/OpenGLTut.dir/funn_with_squares/Square.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pioziol/CLionProjects/OpenGLTut/funn_with_squares/Square.cpp -o CMakeFiles/OpenGLTut.dir/funn_with_squares/Square.cpp.s
+
+CMakeFiles/OpenGLTut.dir/funn_with_squares/factory/SmallSquareFactory.cpp.o: CMakeFiles/OpenGLTut.dir/flags.make
+CMakeFiles/OpenGLTut.dir/funn_with_squares/factory/SmallSquareFactory.cpp.o: ../funn_with_squares/factory/SmallSquareFactory.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pioziol/CLionProjects/OpenGLTut/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/OpenGLTut.dir/funn_with_squares/factory/SmallSquareFactory.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/OpenGLTut.dir/funn_with_squares/factory/SmallSquareFactory.cpp.o -c /home/pioziol/CLionProjects/OpenGLTut/funn_with_squares/factory/SmallSquareFactory.cpp
+
+CMakeFiles/OpenGLTut.dir/funn_with_squares/factory/SmallSquareFactory.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/OpenGLTut.dir/funn_with_squares/factory/SmallSquareFactory.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pioziol/CLionProjects/OpenGLTut/funn_with_squares/factory/SmallSquareFactory.cpp > CMakeFiles/OpenGLTut.dir/funn_with_squares/factory/SmallSquareFactory.cpp.i
+
+CMakeFiles/OpenGLTut.dir/funn_with_squares/factory/SmallSquareFactory.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/OpenGLTut.dir/funn_with_squares/factory/SmallSquareFactory.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pioziol/CLionProjects/OpenGLTut/funn_with_squares/factory/SmallSquareFactory.cpp -o CMakeFiles/OpenGLTut.dir/funn_with_squares/factory/SmallSquareFactory.cpp.s
+
 # Object files for target OpenGLTut
 OpenGLTut_OBJECTS = \
 "CMakeFiles/OpenGLTut.dir/main.cpp.o" \
@@ -268,7 +294,9 @@ OpenGLTut_OBJECTS = \
 "CMakeFiles/OpenGLTut.dir/src/Shader.cpp.o" \
 "CMakeFiles/OpenGLTut.dir/src/Texture.cpp.o" \
 "CMakeFiles/OpenGLTut.dir/shader_provider/ShaderProvider.cpp.o" \
-"CMakeFiles/OpenGLTut.dir/shader_provider/ShaderSource.cpp.o"
+"CMakeFiles/OpenGLTut.dir/shader_provider/ShaderSource.cpp.o" \
+"CMakeFiles/OpenGLTut.dir/funn_with_squares/Square.cpp.o" \
+"CMakeFiles/OpenGLTut.dir/funn_with_squares/factory/SmallSquareFactory.cpp.o"
 
 # External object files for target OpenGLTut
 OpenGLTut_EXTERNAL_OBJECTS =
@@ -288,6 +316,8 @@ OpenGLTut: CMakeFiles/OpenGLTut.dir/src/Shader.cpp.o
 OpenGLTut: CMakeFiles/OpenGLTut.dir/src/Texture.cpp.o
 OpenGLTut: CMakeFiles/OpenGLTut.dir/shader_provider/ShaderProvider.cpp.o
 OpenGLTut: CMakeFiles/OpenGLTut.dir/shader_provider/ShaderSource.cpp.o
+OpenGLTut: CMakeFiles/OpenGLTut.dir/funn_with_squares/Square.cpp.o
+OpenGLTut: CMakeFiles/OpenGLTut.dir/funn_with_squares/factory/SmallSquareFactory.cpp.o
 OpenGLTut: CMakeFiles/OpenGLTut.dir/build.make
 OpenGLTut: /usr/local/lib/libglfw3.a
 OpenGLTut: /usr/lib/x86_64-linux-gnu/libOpenGL.so
@@ -298,7 +328,7 @@ OpenGLTut: /usr/lib/x86_64-linux-gnu/librt.so
 OpenGLTut: /usr/lib/x86_64-linux-gnu/libm.so
 OpenGLTut: /usr/lib/x86_64-linux-gnu/libX11.so
 OpenGLTut: CMakeFiles/OpenGLTut.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/pioziol/CLionProjects/OpenGLTut/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Linking CXX executable OpenGLTut"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/pioziol/CLionProjects/OpenGLTut/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Linking CXX executable OpenGLTut"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/OpenGLTut.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
