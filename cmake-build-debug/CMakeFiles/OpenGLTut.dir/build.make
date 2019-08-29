@@ -34,10 +34,10 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /snap/clion/81/bin/cmake/linux/bin/cmake
+CMAKE_COMMAND = /snap/clion/82/bin/cmake/linux/bin/cmake
 
 # The command to remove a file.
-RM = /snap/clion/81/bin/cmake/linux/bin/cmake -E remove -f
+RM = /snap/clion/82/bin/cmake/linux/bin/cmake -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
@@ -252,9 +252,22 @@ CMakeFiles/OpenGLTut.dir/shader_provider/ShaderSource.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/OpenGLTut.dir/shader_provider/ShaderSource.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pioziol/CLionProjects/OpenGLTut/shader_provider/ShaderSource.cpp -o CMakeFiles/OpenGLTut.dir/shader_provider/ShaderSource.cpp.s
 
+CMakeFiles/OpenGLTut.dir/src/tests/test.cpp.o: CMakeFiles/OpenGLTut.dir/flags.make
+CMakeFiles/OpenGLTut.dir/src/tests/test.cpp.o: ../src/tests/test.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pioziol/CLionProjects/OpenGLTut/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/OpenGLTut.dir/src/tests/test.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/OpenGLTut.dir/src/tests/test.cpp.o -c /home/pioziol/CLionProjects/OpenGLTut/src/tests/test.cpp
+
+CMakeFiles/OpenGLTut.dir/src/tests/test.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/OpenGLTut.dir/src/tests/test.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pioziol/CLionProjects/OpenGLTut/src/tests/test.cpp > CMakeFiles/OpenGLTut.dir/src/tests/test.cpp.i
+
+CMakeFiles/OpenGLTut.dir/src/tests/test.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/OpenGLTut.dir/src/tests/test.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pioziol/CLionProjects/OpenGLTut/src/tests/test.cpp -o CMakeFiles/OpenGLTut.dir/src/tests/test.cpp.s
+
 CMakeFiles/OpenGLTut.dir/src/tests/TestClearColor.cpp.o: CMakeFiles/OpenGLTut.dir/flags.make
 CMakeFiles/OpenGLTut.dir/src/tests/TestClearColor.cpp.o: ../src/tests/TestClearColor.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pioziol/CLionProjects/OpenGLTut/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/OpenGLTut.dir/src/tests/TestClearColor.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pioziol/CLionProjects/OpenGLTut/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/OpenGLTut.dir/src/tests/TestClearColor.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/OpenGLTut.dir/src/tests/TestClearColor.cpp.o -c /home/pioziol/CLionProjects/OpenGLTut/src/tests/TestClearColor.cpp
 
 CMakeFiles/OpenGLTut.dir/src/tests/TestClearColor.cpp.i: cmake_force
@@ -264,6 +277,19 @@ CMakeFiles/OpenGLTut.dir/src/tests/TestClearColor.cpp.i: cmake_force
 CMakeFiles/OpenGLTut.dir/src/tests/TestClearColor.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/OpenGLTut.dir/src/tests/TestClearColor.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pioziol/CLionProjects/OpenGLTut/src/tests/TestClearColor.cpp -o CMakeFiles/OpenGLTut.dir/src/tests/TestClearColor.cpp.s
+
+CMakeFiles/OpenGLTut.dir/src/tests/TestTexture2D.cpp.o: CMakeFiles/OpenGLTut.dir/flags.make
+CMakeFiles/OpenGLTut.dir/src/tests/TestTexture2D.cpp.o: ../src/tests/TestTexture2D.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pioziol/CLionProjects/OpenGLTut/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/OpenGLTut.dir/src/tests/TestTexture2D.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/OpenGLTut.dir/src/tests/TestTexture2D.cpp.o -c /home/pioziol/CLionProjects/OpenGLTut/src/tests/TestTexture2D.cpp
+
+CMakeFiles/OpenGLTut.dir/src/tests/TestTexture2D.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/OpenGLTut.dir/src/tests/TestTexture2D.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pioziol/CLionProjects/OpenGLTut/src/tests/TestTexture2D.cpp > CMakeFiles/OpenGLTut.dir/src/tests/TestTexture2D.cpp.i
+
+CMakeFiles/OpenGLTut.dir/src/tests/TestTexture2D.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/OpenGLTut.dir/src/tests/TestTexture2D.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pioziol/CLionProjects/OpenGLTut/src/tests/TestTexture2D.cpp -o CMakeFiles/OpenGLTut.dir/src/tests/TestTexture2D.cpp.s
 
 # Object files for target OpenGLTut
 OpenGLTut_OBJECTS = \
@@ -282,7 +308,9 @@ OpenGLTut_OBJECTS = \
 "CMakeFiles/OpenGLTut.dir/src/Texture.cpp.o" \
 "CMakeFiles/OpenGLTut.dir/shader_provider/ShaderProvider.cpp.o" \
 "CMakeFiles/OpenGLTut.dir/shader_provider/ShaderSource.cpp.o" \
-"CMakeFiles/OpenGLTut.dir/src/tests/TestClearColor.cpp.o"
+"CMakeFiles/OpenGLTut.dir/src/tests/test.cpp.o" \
+"CMakeFiles/OpenGLTut.dir/src/tests/TestClearColor.cpp.o" \
+"CMakeFiles/OpenGLTut.dir/src/tests/TestTexture2D.cpp.o"
 
 # External object files for target OpenGLTut
 OpenGLTut_EXTERNAL_OBJECTS =
@@ -302,7 +330,9 @@ OpenGLTut: CMakeFiles/OpenGLTut.dir/src/Shader.cpp.o
 OpenGLTut: CMakeFiles/OpenGLTut.dir/src/Texture.cpp.o
 OpenGLTut: CMakeFiles/OpenGLTut.dir/shader_provider/ShaderProvider.cpp.o
 OpenGLTut: CMakeFiles/OpenGLTut.dir/shader_provider/ShaderSource.cpp.o
+OpenGLTut: CMakeFiles/OpenGLTut.dir/src/tests/test.cpp.o
 OpenGLTut: CMakeFiles/OpenGLTut.dir/src/tests/TestClearColor.cpp.o
+OpenGLTut: CMakeFiles/OpenGLTut.dir/src/tests/TestTexture2D.cpp.o
 OpenGLTut: CMakeFiles/OpenGLTut.dir/build.make
 OpenGLTut: /usr/local/lib/libglfw3.a
 OpenGLTut: /usr/lib/x86_64-linux-gnu/libOpenGL.so
@@ -313,7 +343,7 @@ OpenGLTut: /usr/lib/x86_64-linux-gnu/librt.so
 OpenGLTut: /usr/lib/x86_64-linux-gnu/libm.so
 OpenGLTut: /usr/lib/x86_64-linux-gnu/libX11.so
 OpenGLTut: CMakeFiles/OpenGLTut.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/pioziol/CLionProjects/OpenGLTut/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Linking CXX executable OpenGLTut"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/pioziol/CLionProjects/OpenGLTut/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Linking CXX executable OpenGLTut"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/OpenGLTut.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

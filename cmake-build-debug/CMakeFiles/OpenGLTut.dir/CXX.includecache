@@ -6,51 +6,19 @@
 
 #IncludeRegexTransform: 
 
-/home/pioziol/CLionProjects/OpenGLTut/main.cpp
+../shader_provider/ShaderSource.h
 iostream
--
-src/Renderer.h
-/home/pioziol/CLionProjects/OpenGLTut/src/Renderer.h
-src/Shader.h
-/home/pioziol/CLionProjects/OpenGLTut/src/Shader.h
-src/VertexBuffer.h
-/home/pioziol/CLionProjects/OpenGLTut/src/VertexBuffer.h
-src/IndexBuffer.h
-/home/pioziol/CLionProjects/OpenGLTut/src/IndexBuffer.h
-src/VertexArray.h
-/home/pioziol/CLionProjects/OpenGLTut/src/VertexArray.h
-src/VertexBufferLayout.h
-/home/pioziol/CLionProjects/OpenGLTut/src/VertexBufferLayout.h
-shader_provider/ShaderProvider.h
-/home/pioziol/CLionProjects/OpenGLTut/shader_provider/ShaderProvider.h
-src/Texture.h
-/home/pioziol/CLionProjects/OpenGLTut/src/Texture.h
-src/vendor/im_gui/imgui.h
-/home/pioziol/CLionProjects/OpenGLTut/src/vendor/im_gui/imgui.h
-src/vendor/im_gui/imgui_impl_glfw_gl3.h
-/home/pioziol/CLionProjects/OpenGLTut/src/vendor/im_gui/imgui_impl_glfw_gl3.h
-src/tests/TestClearColor.h
-/home/pioziol/CLionProjects/OpenGLTut/src/tests/TestClearColor.h
-
-/home/pioziol/CLionProjects/OpenGLTut/shader_provider/ShaderProvider.h
-string
--
-ShaderSource.h
-/home/pioziol/CLionProjects/OpenGLTut/shader_provider/ShaderSource.h
-
-/home/pioziol/CLionProjects/OpenGLTut/shader_provider/ShaderSource.h
-iostream
-/home/pioziol/CLionProjects/OpenGLTut/shader_provider/iostream
+../shader_provider/iostream
 fstream
-/home/pioziol/CLionProjects/OpenGLTut/shader_provider/fstream
+../shader_provider/fstream
 string
-/home/pioziol/CLionProjects/OpenGLTut/shader_provider/string
+../shader_provider/string
 sstream
-/home/pioziol/CLionProjects/OpenGLTut/shader_provider/sstream
+../shader_provider/sstream
 
-/home/pioziol/CLionProjects/OpenGLTut/src/IndexBuffer.h
+../src/IndexBuffer.h
 
-/home/pioziol/CLionProjects/OpenGLTut/src/Renderer.h
+../src/Renderer.h
 GL/glew.h
 -
 GL/glut.h
@@ -58,11 +26,11 @@ GL/glut.h
 GLFW/glfw3.h
 -
 glm/glm.hpp
-/home/pioziol/CLionProjects/OpenGLTut/src/glm/glm.hpp
+../src/glm/glm.hpp
 glm/gtc/matrix_transform.hpp
-/home/pioziol/CLionProjects/OpenGLTut/src/glm/gtc/matrix_transform.hpp
+../src/glm/gtc/matrix_transform.hpp
 Shader.h
-/home/pioziol/CLionProjects/OpenGLTut/src/Shader.h
+../src/Shader.h
 string
 -
 csignal
@@ -70,13 +38,13 @@ csignal
 iostream
 -
 VertexArray.h
-/home/pioziol/CLionProjects/OpenGLTut/src/VertexArray.h
+../src/VertexArray.h
 IndexBuffer.h
-/home/pioziol/CLionProjects/OpenGLTut/src/IndexBuffer.h
+../src/IndexBuffer.h
 
-/home/pioziol/CLionProjects/OpenGLTut/src/Shader.h
+../src/Shader.h
 ../shader_provider/ShaderSource.h
-/home/pioziol/CLionProjects/OpenGLTut/shader_provider/ShaderSource.h
+../shader_provider/ShaderSource.h
 string
 -
 unordered_map
@@ -84,41 +52,51 @@ unordered_map
 vector
 -
 glm/glm.hpp
-/home/pioziol/CLionProjects/OpenGLTut/src/glm/glm.hpp
+../src/glm/glm.hpp
 glm/gtc/matrix_transform.hpp
-/home/pioziol/CLionProjects/OpenGLTut/src/glm/gtc/matrix_transform.hpp
+../src/glm/gtc/matrix_transform.hpp
 
-/home/pioziol/CLionProjects/OpenGLTut/src/Texture.h
+../src/Texture.h
 Renderer.h
-/home/pioziol/CLionProjects/OpenGLTut/src/Renderer.h
+../src/Renderer.h
 string
 -
 
-/home/pioziol/CLionProjects/OpenGLTut/src/VertexArray.h
+../src/VertexArray.h
 VertexBuffer.h
-/home/pioziol/CLionProjects/OpenGLTut/src/VertexBuffer.h
+../src/VertexBuffer.h
 VertexBufferLayout.h
-/home/pioziol/CLionProjects/OpenGLTut/src/VertexBufferLayout.h
+../src/VertexBufferLayout.h
 
-/home/pioziol/CLionProjects/OpenGLTut/src/VertexBuffer.h
+../src/VertexBuffer.h
 
-/home/pioziol/CLionProjects/OpenGLTut/src/VertexBufferLayout.h
+../src/VertexBufferLayout.h
 vector
 -
 GL/glew.h
 -
 
-/home/pioziol/CLionProjects/OpenGLTut/src/tests/TestClearColor.h
+../src/tests/TestClearColor.h
 test.h
-/home/pioziol/CLionProjects/OpenGLTut/src/tests/test.h
+../src/tests/test.h
 
-/home/pioziol/CLionProjects/OpenGLTut/src/tests/test.h
+../src/tests/TestTexture2D.h
+memory
+-
+test.h
+../src/tests/test.h
 
-/home/pioziol/CLionProjects/OpenGLTut/src/vendor/im_gui/imconfig.h
+../src/tests/test.h
+functional
+-
+iostream
+-
 
-/home/pioziol/CLionProjects/OpenGLTut/src/vendor/im_gui/imgui.h
+../src/vendor/im_gui/imconfig.h
+
+../src/vendor/im_gui/imgui.h
 imconfig.h
-/home/pioziol/CLionProjects/OpenGLTut/src/vendor/im_gui/imconfig.h
+../src/vendor/im_gui/imconfig.h
 float.h
 -
 stdarg.h
@@ -130,7 +108,25 @@ string.h
 assert.h
 -
 imgui_user.h
-/home/pioziol/CLionProjects/OpenGLTut/src/vendor/im_gui/imgui_user.h
+../src/vendor/im_gui/imgui_user.h
 
-/home/pioziol/CLionProjects/OpenGLTut/src/vendor/im_gui/imgui_impl_glfw_gl3.h
+../src/vendor/im_gui/imgui_impl_glfw_gl3.h
+
+/home/pioziol/CLionProjects/OpenGLTut/main.cpp
+iostream
+-
+Renderer.h
+/home/pioziol/CLionProjects/OpenGLTut/Renderer.h
+VertexBufferLayout.h
+/home/pioziol/CLionProjects/OpenGLTut/VertexBufferLayout.h
+Texture.h
+/home/pioziol/CLionProjects/OpenGLTut/Texture.h
+vendor/im_gui/imgui.h
+/home/pioziol/CLionProjects/OpenGLTut/vendor/im_gui/imgui.h
+vendor/im_gui/imgui_impl_glfw_gl3.h
+/home/pioziol/CLionProjects/OpenGLTut/vendor/im_gui/imgui_impl_glfw_gl3.h
+tests/TestClearColor.h
+/home/pioziol/CLionProjects/OpenGLTut/tests/TestClearColor.h
+tests/TestTexture2D.h
+/home/pioziol/CLionProjects/OpenGLTut/tests/TestTexture2D.h
 

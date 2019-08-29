@@ -15,6 +15,8 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "/home/pioziol/CLionProjects/OpenGLTut/src/VertexBuffer.cpp" "/home/pioziol/CLionProjects/OpenGLTut/cmake-build-debug/CMakeFiles/OpenGLTut.dir/src/VertexBuffer.cpp.o"
   "/home/pioziol/CLionProjects/OpenGLTut/src/VertexBufferLayout.cpp" "/home/pioziol/CLionProjects/OpenGLTut/cmake-build-debug/CMakeFiles/OpenGLTut.dir/src/VertexBufferLayout.cpp.o"
   "/home/pioziol/CLionProjects/OpenGLTut/src/tests/TestClearColor.cpp" "/home/pioziol/CLionProjects/OpenGLTut/cmake-build-debug/CMakeFiles/OpenGLTut.dir/src/tests/TestClearColor.cpp.o"
+  "/home/pioziol/CLionProjects/OpenGLTut/src/tests/TestTexture2D.cpp" "/home/pioziol/CLionProjects/OpenGLTut/cmake-build-debug/CMakeFiles/OpenGLTut.dir/src/tests/TestTexture2D.cpp.o"
+  "/home/pioziol/CLionProjects/OpenGLTut/src/tests/test.cpp" "/home/pioziol/CLionProjects/OpenGLTut/cmake-build-debug/CMakeFiles/OpenGLTut.dir/src/tests/test.cpp.o"
   "/home/pioziol/CLionProjects/OpenGLTut/src/vendor/im_gui/imgui.cpp" "/home/pioziol/CLionProjects/OpenGLTut/cmake-build-debug/CMakeFiles/OpenGLTut.dir/src/vendor/im_gui/imgui.cpp.o"
   "/home/pioziol/CLionProjects/OpenGLTut/src/vendor/im_gui/imgui_demo.cpp" "/home/pioziol/CLionProjects/OpenGLTut/cmake-build-debug/CMakeFiles/OpenGLTut.dir/src/vendor/im_gui/imgui_demo.cpp.o"
   "/home/pioziol/CLionProjects/OpenGLTut/src/vendor/im_gui/imgui_draw.cpp" "/home/pioziol/CLionProjects/OpenGLTut/cmake-build-debug/CMakeFiles/OpenGLTut.dir/src/vendor/im_gui/imgui_draw.cpp.o"
@@ -26,6 +28,7 @@ set(CMAKE_CXX_COMPILER_ID "GNU")
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "../src/vendor/glm/glm"
+  "../src"
   )
 
 # Targets to which this target links.

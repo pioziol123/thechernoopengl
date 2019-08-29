@@ -1,15 +1,11 @@
 #include <iostream>
-#include "src/Renderer.h"
-#include "src/Shader.h"
-#include "src/VertexBuffer.h"
-#include "src/IndexBuffer.h"
-#include "src/VertexArray.h"
-#include "src/VertexBufferLayout.h"
-#include "shader_provider/ShaderProvider.h"
-#include "src/Texture.h"
-#include "src/vendor/im_gui/imgui.h"
-#include "src/vendor/im_gui/imgui_impl_glfw_gl3.h"
-#include "src/tests/TestClearColor.h"
+#include "Renderer.h"
+#include "VertexBufferLayout.h"
+#include "Texture.h"
+#include "vendor/im_gui/imgui.h"
+#include "vendor/im_gui/imgui_impl_glfw_gl3.h"
+#include "tests/TestClearColor.h"
+#include "tests/TestTexture2D.h"
 
 int main() {
 
@@ -34,29 +30,45 @@ int main() {
         std::cout << "Something went wrong!" << std::endl;
         exit(EXIT_FAILURE);
     }
+
     {
         GLCall(glEnable(GL_BLEND))
         GLCall(glBlendFunc(GL_SRC_ALPHA, GL_ONE_MINUS_SRC_ALPHA))
-
         Renderer renderer;
         ImGui::CreateContext();
         ImGui_ImplGlfwGL3_Init(window, true);
         ImGui::StyleColorsDark();
-        test::TestClearColor test;
+        test::Test *currentTest = NULL;
+        auto *testMenu = new test::TestMenu(currentTest);
+        currentTest = testMenu;
+        testMenu->RegisterTest<test::TestClearColor>("Clear color");
+        testMenu->RegisterTest<test::TestTexture2D>("Texture 2D");
 
         while (!glfwWindowShouldClose(window)) {
             renderer.Clear();
-            test.OnUpdate(0.0f);
-            test.OnRender();
+            GLCall(glClearColor(0.0f, 0.0f, 0.0f, 1.0f))
             ImGui_ImplGlfwGL3_NewFrame();
-            test.OnImGuiRender();
+            if (currentTest) {
+                currentTest->OnUpdate(0.0f);
+                currentTest->OnRender();
+                ImGui::Begin("Test menu");
+                if (currentTest != testMenu && ImGui::Button("<-")) {
+                    delete currentTest;
+                    currentTest = testMenu;
+                }
+                currentTest->OnImGuiRender();
+                ImGui::End();
 
-
+            }
             ImGui::Render();
             ImGui_ImplGlfwGL3_RenderDrawData(ImGui::GetDrawData());
 
             glfwSwapBuffers(window);
             glfwPollEvents();
+        }
+        delete currentTest;
+        if (currentTest != testMenu) {
+            delete testMenu;
         }
     }
     ImGui_ImplGlfwGL3_Shutdown();

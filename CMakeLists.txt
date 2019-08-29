@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 3.14)
 project(OpenGLTut)
-include_directories(src/vendor/glm/glm/)
+include_directories(src/vendor/glm/glm/ src)
 #include_directories(src/vendor/)
 set(CMAKE_CXX_STANDARD 17)
 set(SHADER_PROVIDER_SOURCES
@@ -41,8 +41,11 @@ set (VENDORS
 
 set (TESTS
         src/tests/test.h
+        src/tests/test.cpp
         src/tests/TestClearColor.cpp
         src/tests/TestClearColor.h
+        src/tests/TestTexture2D.cpp
+        src/tests/TestTexture2D.h
         )
 set(SOURCE_FILES main.cpp ${VENDORS}  ${SRC_FILES} ${SHADER_PROVIDER_SOURCES} ${TESTS})
 add_executable(OpenGLTut ${SOURCE_FILES})

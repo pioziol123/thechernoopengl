@@ -35,7 +35,7 @@
             char *message = (char *) alloca(length * sizeof(char));
             GLCall(glGetShaderInfoLog(this->id, length, &length, message));
             std::cout << "Failed to compile a " << (this->type == GL_VERTEX_SHADER ? "vertex" : "fragment")
-                      << " shader!" << std::endl;
+                      << " m_Shader!" << std::endl;
             std::cout << message << std::endl;
             GLCall(glDeleteShader(this->id));
             throw "ShaderSource didn't compile!";
