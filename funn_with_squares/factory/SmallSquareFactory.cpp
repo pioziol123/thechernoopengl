@@ -7,7 +7,7 @@
 
 namespace square {
     Square SmallSquareFactory::create() {
-        VertexArray va;
+        auto* va = new VertexArray;
 
         float positions[] = {
                 0.50f, 0.50f,
@@ -15,19 +15,19 @@ namespace square {
                 -0.50f, 0.50f,
                 0.50f, -0.50f,
         };
-        VertexBuffer vb(positions, sizeof(float) * 2 * 4);
-        VertexBufferLayout layout;
-        layout.Push<float>(2);
-        va.AddBuffer(vb, layout);
+        auto* vb = new VertexBuffer(positions, sizeof(float) * 2 * 4);
+        auto *layout = new VertexBufferLayout;
+        layout->Push<float>(2);
+        va->AddBuffer(*vb, *layout);
 
         unsigned int indices[6] = {0, 1, 2, 0, 1, 3};
-        IndexBuffer ib(indices, 6);
-        Shader shader;
+        auto* ib = new IndexBuffer(indices, 6);
+        auto* shader  = new Shader;
         ShaderProvider shaderProvider;
-        shader.addShader(*shaderProvider.createShader(Shaders::FunnyVertexShader));
-        shader.addShader(*shaderProvider.createShader(Shaders::FunnyFragmentShader));
-        shader.CreateShader();
-        shader.Bind();
+        shader->addShader(*shaderProvider.createShader(Shaders::FunnyVertexShader));
+        shader->addShader(*shaderProvider.createShader(Shaders::FunnyFragmentShader));
+        shader->CreateShader();
+        shader->Bind();
         return Square(ib, vb, va, layout, shader);
     }
 }

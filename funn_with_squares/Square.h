@@ -11,14 +11,14 @@
 namespace square {
     class Square {
     private:
-        IndexBuffer ib;
-        VertexArray va;
-        Shader shader;
-        VertexBuffer vb;
-        VertexBufferLayout layout;
+        IndexBuffer *ib;
+        VertexArray* va;
+        Shader* shader;
+        VertexBuffer* vb;
+        VertexBufferLayout* layout;
 
     public:
-        Square(const IndexBuffer& ib, const VertexBuffer& vb, const VertexArray& va, const VertexBufferLayout& layout, const Shader& shader);
+        Square(IndexBuffer* ib, VertexBuffer* vb, VertexArray* va, VertexBufferLayout* layout, Shader* shader);
         ~Square();
         void Draw(const Renderer& renderer) const;
         Shader* GetShader();

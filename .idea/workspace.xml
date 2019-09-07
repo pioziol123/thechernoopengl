@@ -11,40 +11,23 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="51114714-5015-4dcd-bfe7-05623a4736e4" name="Default Changelist" comment="cleaning up code">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/funn_with_squares/Square.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/funn_with_squares/Square.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/funn_with_squares/factory/SmallSquareFactory.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/funn_with_squares/factory/SmallSquareFactory.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/funn_with_squares/factory/SquareFactory.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/shaders/FunnyFragmentShader.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/shaders/FunnyVertexShader.cpp" afterDir="false" />
+    <list default="true" id="51114714-5015-4dcd-bfe7-05623a4736e4" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/OpenGLTut.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/OpenGLTut.dir/CXX.includecache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/OpenGLTut.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/OpenGLTut.dir/DependInfo.cmake" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/OpenGLTut.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/OpenGLTut.dir/build.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/OpenGLTut.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/OpenGLTut.dir/cmake_clean.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/OpenGLTut.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/OpenGLTut.dir/depend.internal" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/OpenGLTut.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/OpenGLTut.dir/depend.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/OpenGLTut.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/OpenGLTut.dir/flags.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/OpenGLTut.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/OpenGLTut.dir/link.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/OpenGLTut.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/OpenGLTut.dir/progress.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/OpenGLTut.dir/shader_provider/ShaderProvider.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/OpenGLTut.dir/shader_provider/ShaderProvider.cpp.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/OpenGLTut.dir/shader_provider/ShaderSource.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/OpenGLTut.dir/shader_provider/ShaderSource.cpp.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/OpenGLTut.dir/src/Renderer.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/OpenGLTut.dir/src/Renderer.cpp.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/OpenGLTut.dir/src/Shader.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/OpenGLTut.dir/src/Shader.cpp.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/OpenGLTut.dir/funn_with_squares/Square.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/OpenGLTut.dir/funn_with_squares/Square.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/OpenGLTut.dir/funn_with_squares/factory/SmallSquareFactory.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/OpenGLTut.dir/funn_with_squares/factory/SmallSquareFactory.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/OpenGLTut.dir/main.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/OpenGLTut.dir/main.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/OpenGLTut" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/OpenGLTut" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/OpenGLTut.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/OpenGLTut.cbp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/funn_with_squares/Square.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/funn_with_squares/Square.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/funn_with_squares/Square.h" beforeDir="false" afterPath="$PROJECT_DIR$/funn_with_squares/Square.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/funn_with_squares/factory/SmallSquareFactory.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/funn_with_squares/factory/SmallSquareFactory.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shader_provider/ShaderProvider.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/shader_provider/ShaderProvider.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shader_provider/ShaderProvider.h" beforeDir="false" afterPath="$PROJECT_DIR$/shader_provider/ShaderProvider.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shader_provider/ShaderSource.h" beforeDir="false" afterPath="$PROJECT_DIR$/shader_provider/ShaderSource.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/shaders/VertexShader.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/shaders/VertexShader.cpp" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -68,18 +51,15 @@
   <component name="ProjectId" id="1OdY00QcxyZkcdhTVnJIsHxZvES" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="full.screen.before.presentation.mode" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/vendor/im_gui" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/tests" />
     <property name="settings.editor.selected.configurable" value="CLionExternalConfigurable" />
     <property name="settings.editor.splitter.proportion" value="0.25512367" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/funn_with_squares/factory" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/tests" />
       <recent name="$PROJECT_DIR$/src/vendor/im_gui" />
     </key>
   </component>
@@ -116,9 +96,8 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Color test" />
-    <MESSAGE value="cleaning up code" />
-    <option name="LAST_COMMIT_MESSAGE" value="cleaning up code" />
+    <MESSAGE value="more tests" />
+    <option name="LAST_COMMIT_MESSAGE" value="more tests" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
