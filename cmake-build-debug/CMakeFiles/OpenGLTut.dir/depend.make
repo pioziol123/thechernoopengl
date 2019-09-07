@@ -5,6 +5,7 @@ CMakeFiles/OpenGLTut.dir/funn_with_squares/Square.cpp.o: ../shader_provider/Shad
 CMakeFiles/OpenGLTut.dir/funn_with_squares/Square.cpp.o: ../src/IndexBuffer.h
 CMakeFiles/OpenGLTut.dir/funn_with_squares/Square.cpp.o: ../src/Renderer.h
 CMakeFiles/OpenGLTut.dir/funn_with_squares/Square.cpp.o: ../src/Shader.h
+CMakeFiles/OpenGLTut.dir/funn_with_squares/Square.cpp.o: ../src/Texture.h
 CMakeFiles/OpenGLTut.dir/funn_with_squares/Square.cpp.o: ../src/VertexArray.h
 CMakeFiles/OpenGLTut.dir/funn_with_squares/Square.cpp.o: ../src/VertexBuffer.h
 CMakeFiles/OpenGLTut.dir/funn_with_squares/Square.cpp.o: ../src/VertexBufferLayout.h
@@ -16,6 +17,7 @@ CMakeFiles/OpenGLTut.dir/funn_with_squares/factory/SmallSquareFactory.cpp.o: ../
 CMakeFiles/OpenGLTut.dir/funn_with_squares/factory/SmallSquareFactory.cpp.o: ../src/IndexBuffer.h
 CMakeFiles/OpenGLTut.dir/funn_with_squares/factory/SmallSquareFactory.cpp.o: ../src/Renderer.h
 CMakeFiles/OpenGLTut.dir/funn_with_squares/factory/SmallSquareFactory.cpp.o: ../src/Shader.h
+CMakeFiles/OpenGLTut.dir/funn_with_squares/factory/SmallSquareFactory.cpp.o: ../src/Texture.h
 CMakeFiles/OpenGLTut.dir/funn_with_squares/factory/SmallSquareFactory.cpp.o: ../src/VertexArray.h
 CMakeFiles/OpenGLTut.dir/funn_with_squares/factory/SmallSquareFactory.cpp.o: ../src/VertexBuffer.h
 CMakeFiles/OpenGLTut.dir/funn_with_squares/factory/SmallSquareFactory.cpp.o: ../src/VertexBufferLayout.h
@@ -27,11 +29,11 @@ CMakeFiles/OpenGLTut.dir/funn_with_squares/factory/SmallSquareFactory.cpp.o: ../
 CMakeFiles/OpenGLTut.dir/funn_with_squares/factory/SmallSquareFactory.cpp.o: ../shader_provider/ShaderSource.h
 CMakeFiles/OpenGLTut.dir/funn_with_squares/factory/SmallSquareFactory.cpp.o: ../src/VertexBuffer.h
 
+CMakeFiles/OpenGLTut.dir/main.cpp.o: ../src/Texture.h
 CMakeFiles/OpenGLTut.dir/main.cpp.o: ../funn_with_squares/Square.h
 CMakeFiles/OpenGLTut.dir/main.cpp.o: ../funn_with_squares/factory/SmallSquareFactory.h
 CMakeFiles/OpenGLTut.dir/main.cpp.o: ../funn_with_squares/factory/SquareFactory.h
 CMakeFiles/OpenGLTut.dir/main.cpp.o: ../main.cpp
-CMakeFiles/OpenGLTut.dir/main.cpp.o: ../shader_provider/ShaderProvider.h
 CMakeFiles/OpenGLTut.dir/main.cpp.o: ../shader_provider/ShaderSource.h
 CMakeFiles/OpenGLTut.dir/main.cpp.o: ../src/IndexBuffer.h
 CMakeFiles/OpenGLTut.dir/main.cpp.o: ../src/Renderer.h
@@ -40,9 +42,6 @@ CMakeFiles/OpenGLTut.dir/main.cpp.o: ../src/Texture.h
 CMakeFiles/OpenGLTut.dir/main.cpp.o: ../src/VertexArray.h
 CMakeFiles/OpenGLTut.dir/main.cpp.o: ../src/VertexBuffer.h
 CMakeFiles/OpenGLTut.dir/main.cpp.o: ../src/VertexBufferLayout.h
-CMakeFiles/OpenGLTut.dir/main.cpp.o: ../src/vendor/im_gui/imconfig.h
-CMakeFiles/OpenGLTut.dir/main.cpp.o: ../src/vendor/im_gui/imgui.h
-CMakeFiles/OpenGLTut.dir/main.cpp.o: ../src/vendor/im_gui/imgui_impl_glfw_gl3.h
 
 CMakeFiles/OpenGLTut.dir/shader_provider/ShaderProvider.cpp.o: ../shader_provider/ShaderProvider.cpp
 CMakeFiles/OpenGLTut.dir/shader_provider/ShaderProvider.cpp.o: ../shader_provider/ShaderProvider.h

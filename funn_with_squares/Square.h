@@ -5,6 +5,7 @@
 #ifndef OPENGLTUT_SQUARE_H
 #define OPENGLTUT_SQUARE_H
 
+#include <Texture.h>
 #include "Renderer.h"
 #include "../src/VertexBuffer.h"
 
@@ -16,12 +17,13 @@ namespace square {
         Shader* shader;
         VertexBuffer* vb;
         VertexBufferLayout* layout;
-
+        Texture *texture;
     public:
         Square(IndexBuffer* ib, VertexBuffer* vb, VertexArray* va, VertexBufferLayout* layout, Shader* shader);
         ~Square();
         void Draw(const Renderer& renderer) const;
         Shader* GetShader();
+        void BindTexture(Texture* pTexture);
         void Unbind();
     };
 }

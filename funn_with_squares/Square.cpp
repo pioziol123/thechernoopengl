@@ -26,7 +26,13 @@ namespace square {
     }
 
     void Square::Draw(const Renderer &renderer) const{
+        texture->Bind();
         renderer.Draw(*ib, *va, *shader);
+    }
+
+    void Square::BindTexture(Texture *pTexture) {
+        texture = pTexture;
+        texture->Unbind();
     }
 }
 

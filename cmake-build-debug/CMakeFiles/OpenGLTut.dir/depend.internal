@@ -6,6 +6,7 @@ CMakeFiles/OpenGLTut.dir/funn_with_squares/Square.cpp.o
  ../src/IndexBuffer.h
  ../src/Renderer.h
  ../src/Shader.h
+ ../src/Texture.h
  ../src/VertexArray.h
  ../src/VertexBuffer.h
  ../src/VertexBufferLayout.h
@@ -17,6 +18,7 @@ CMakeFiles/OpenGLTut.dir/funn_with_squares/factory/SmallSquareFactory.cpp.o
  ../src/IndexBuffer.h
  ../src/Renderer.h
  ../src/Shader.h
+ ../src/Texture.h
  ../src/VertexArray.h
  ../src/VertexBuffer.h
  ../src/VertexBufferLayout.h
@@ -28,11 +30,11 @@ CMakeFiles/OpenGLTut.dir/funn_with_squares/factory/SmallSquareFactory.cpp.o
  /home/pioziol/CLionProjects/OpenGLTut/shader_provider/ShaderSource.h
  /home/pioziol/CLionProjects/OpenGLTut/src/VertexBuffer.h
 CMakeFiles/OpenGLTut.dir/main.cpp.o
+ ../src/Texture.h
  /home/pioziol/CLionProjects/OpenGLTut/funn_with_squares/Square.h
  /home/pioziol/CLionProjects/OpenGLTut/funn_with_squares/factory/SmallSquareFactory.h
  /home/pioziol/CLionProjects/OpenGLTut/funn_with_squares/factory/SquareFactory.h
  /home/pioziol/CLionProjects/OpenGLTut/main.cpp
- /home/pioziol/CLionProjects/OpenGLTut/shader_provider/ShaderProvider.h
  /home/pioziol/CLionProjects/OpenGLTut/shader_provider/ShaderSource.h
  /home/pioziol/CLionProjects/OpenGLTut/src/IndexBuffer.h
  /home/pioziol/CLionProjects/OpenGLTut/src/Renderer.h
@@ -41,9 +43,6 @@ CMakeFiles/OpenGLTut.dir/main.cpp.o
  /home/pioziol/CLionProjects/OpenGLTut/src/VertexArray.h
  /home/pioziol/CLionProjects/OpenGLTut/src/VertexBuffer.h
  /home/pioziol/CLionProjects/OpenGLTut/src/VertexBufferLayout.h
- /home/pioziol/CLionProjects/OpenGLTut/src/vendor/im_gui/imconfig.h
- /home/pioziol/CLionProjects/OpenGLTut/src/vendor/im_gui/imgui.h
- /home/pioziol/CLionProjects/OpenGLTut/src/vendor/im_gui/imgui_impl_glfw_gl3.h
 CMakeFiles/OpenGLTut.dir/shader_provider/ShaderProvider.cpp.o
  /home/pioziol/CLionProjects/OpenGLTut/shader_provider/ShaderProvider.cpp
  /home/pioziol/CLionProjects/OpenGLTut/shader_provider/ShaderProvider.h
